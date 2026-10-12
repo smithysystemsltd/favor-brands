@@ -1,0 +1,31 @@
+{
+  "name": "favor-brands",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "lucide-react": "^0.575.0",
+    "next": "16.0.10",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@tailwindcss/postcss": "^4.2.1",
+    "@types/node": "^22.16.5",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "baseline-browser-mapping": "^2.11.27",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "16.0.10",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.8.3"
+  }
+}
