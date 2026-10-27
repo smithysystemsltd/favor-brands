@@ -1,13 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  BadgeCheck,
-  Droplets,
-  Leaf,
-  ShieldCheck,
-  Truck,
-  Wallet,
-} from "lucide-react";
+import { Droplets, Leaf, Wallet } from "lucide-react";
 import heroPads from "@/assets/hero-pads.jpg";
 import heroDiapers from "@/assets/hero-diapers.jpg";
 import { PRODUCT_IMAGE_VERSION } from "@/lib/site-config";
@@ -28,12 +21,6 @@ const values = [
     title: "Affordable pricing",
     text: "Honest prices for every Kenyan home, plus family packs and bulk options.",
   },
-];
-
-const trustItems = [
-  { icon: BadgeCheck, label: "KEBS-compliant quality" },
-  { icon: ShieldCheck, label: "Dermatologically tested" },
-  { icon: Truck, label: "Discreet delivery" },
 ];
 
 export default function HomePage() {
@@ -97,19 +84,6 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-      </section>
-
-      <section className="border-b border-border bg-muted/40 px-5 py-6">
-        <ul className="mx-auto grid max-w-6xl grid-cols-2 gap-5 md:grid-cols-4">
-          {trustItems.map(({ icon: Icon, label }) => (
-            <li key={label} className="flex min-w-0 flex-col items-center justify-center gap-2 text-center font-bold">
-              <span className="grid size-11 shrink-0 place-items-center rounded-full bg-bloom-soft text-bloom">
-                <Icon size={24} aria-hidden="true" />
-              </span>
-              <span>{label}</span>
-            </li>
-          ))}
-        </ul>
       </section>
 
       <section className="section-spacing mx-auto max-w-4xl px-5 text-center">
