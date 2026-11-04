@@ -22,7 +22,6 @@ export default function CookiesPage() {
       <Section title="What we store today">
         <ul className="list-disc space-y-1 pl-6">
           <li>favor-cookie-consent: remembers your cookie choice (necessary).</li>
-          <li>theme: remembers light or dark mode (necessary).</li>
         </ul>
         <p>We currently run no analytics or advertising tools and embed no third-party maps or videos.</p>
       </Section>

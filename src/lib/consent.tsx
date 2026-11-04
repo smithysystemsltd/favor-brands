@@ -176,7 +176,7 @@ export const CONSENT_CATEGORIES: {
     id: "necessary",
     name: "Strictly necessary",
     description:
-      "Needed for the site to work: page navigation, security, your light or dark theme choice and remembering this cookie decision. These cannot be switched off.",
+      "Needed for the site to work: page navigation, security and remembering this cookie decision. These cannot be switched off.",
     locked: true,
   },
   {
